@@ -71,7 +71,6 @@ p {
     width: 800px; /* return to 800px when done */
     margin: 0 auto;
 }
-
 /* Header stuff*/
 
 header {
@@ -94,6 +93,7 @@ header nav a {
     margin-right: 77px;
 }
  /*End of Header Stuff*/
+
  .about{
     margin: 20px;
  }
@@ -134,8 +134,34 @@ header nav a {
     transition: all .2s ease-in-out;
     opacity: 0.5;    
      }
+     
+  .button:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    
+     }
+.button:visited{
+    color: red;
+}
 
-/* COPIED FOOTER FROM ABOUT*/
+
+.button-two:hover{
+    opacity: 1;
+    transform: scale(1.2);
+         }
+
+.button-two{
+    width: 123px;
+    height: 34px;
+    margin: 103px 0px 0px 0px;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    opacity: 0.5; 
+}
+
 footer {
     width: 100%;
     background: black;
@@ -154,4 +180,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/*END  OF FOOTER*/
