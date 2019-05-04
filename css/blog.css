@@ -94,6 +94,29 @@ header nav a {
     margin-right: 77px;
 }
  /*End of Header Stuff*/
+ .about{
+    margin: 20px;
+ }
+  
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px dashed black;
+  /*border: 1px dotted salmon; /* for design use only */
+ }
+   
+.box{
+    width: 385px;
+    height: 290px;
+    margin: 31px 0 0px 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.box img{
+    margin-bottom: 15px;
+}
 
 /* COPIED FOOTER FROM ABOUT*/
 footer {
